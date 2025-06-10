@@ -13,4 +13,7 @@ php -S localhost:8000
 python -m http.server
 ```
 
+## Notes 
 
+check out displacement maps
+could be used to improve the shader

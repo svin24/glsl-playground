@@ -5,14 +5,14 @@ uniform sampler2D u_texture;
 varying vec2 vUv;
 
 // --- Constants to tweak the effect ---
-const float LENS_SIZE = 0.25;
+const float LENS_SIZE = 0.15;
 const float WARP_STRENGTH = 0.5;
 const float SQUIRCLE_POWER = 4.0;
 const float EDGE_SOFTNESS = 0.005; 
 const float REFRACTION_STRENGTH = 0.05;
 const float CHROMATIC_STRENGTH = 5.0;
 const float REFRACTIVE_INDEX = 4.0;
-const float BLUR_STRENGTH = 0.01;
+const float BLUR_STRENGTH = 0.001;
 const int BLUR_KERNEL_SIZE = 5;
 const float SHEEN_THICKNESS = 0.02; 
 const float SHEEN_INTENSITY = 0.25;
